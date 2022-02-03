@@ -1,0 +1,194 @@
+[
+    {
+        "Name":"Theio Theo",
+        "Address":
+        {
+            "street":"5/7, Waverley Road",
+            "surbub":"Malvern East",
+            "postcode":3145,
+            "state":"VIC",
+            "country":"Melbourne"
+        },
+        "Phone number":"03 8657 8585",
+        "Cuisines":"Greek, Healthy Food",
+        "Average cost ($)":100,
+        "Opening Hours":"5pm-10pm",
+        "BYO":true
+    },
+    {
+        "Name":"Portofino Pizza",
+        "Address":
+        {
+            "street":"884 Glen Huntly Road",
+            "surbub":"Caulfield",
+            "postcode":3145,
+            "state":"VIC",
+            "country":"Melbourne"
+        },
+        "Phone number":"03 9528 6693",
+        "Cuisines":"Pizza, Italian",
+        "Average cost ($)":60,
+        "Opening Hours":"5pm-10pm",
+        "BYO":true
+    },
+    {
+        "Name":"The Cheesecake Shop",
+        "Address":
+        {
+            "street":"882 Glen Huntly Road",
+            "surbub":"Caulfield",
+            "postcode":3145,
+            "state":"VIC",
+            "country":"Melbourne"
+        },
+        "Phone number":"03 9528 5203",
+        "Cuisines":"Desserts",
+        "Average cost ($)":20,
+        "Opening Hours":"9am-7.30pm",
+        "BYO":false
+    },
+    {
+        "Name":"Cool Rays",
+        "Address":
+        {
+            "street":"71 Terry Street",
+            "surbub":"Healesville",
+            "postcode":3777,
+            "state":"VIC",
+            "country":""
+        },
+        "Phone number":"03 9876 1234",
+        "Cuisines":"Desserts",
+        "Average cost ($)":20,
+        "Opening Hours":"9am-7.30pm",
+        "BYO":false
+    },
+    {
+        "Name":"Humble Rays",
+        "Address":
+        {
+            "street":"71 Bouverie Street,",
+            "surbub":"Carlton",
+            "postcode":3053,
+            "state":"VIC",
+            "country":"Melbourne"
+        },
+        "Phone number":"03 8657 8526",
+        "Cuisines":"Coffee and Tea, Cafe Food, Asian Fusion",
+        "Average cost ($)":50,
+        "Opening Hours":"8am-4pm",
+        "BYO":false
+    },
+    {
+        "Name":"The Crux & Co",
+        "Address":
+        {
+            "street":"35 Albert Road",
+            "surbub":"South Melbourne",
+            "postcode":3205,
+            "state":"VIC",
+            "country":"Melbourne"
+        },
+        "Phone number":"03 9820 1081",
+        "Cuisines":"Coffee and Tea, Cafe Food",
+        "Average cost ($)":60,
+        "Opening Hours":"8am-4pm",
+        "BYO":false
+    },
+    {
+        "Name":"Advieh",
+        "Address":
+        {
+            "street":"71B Gamon Street",
+            "surbub":"Seddon",
+            "postcode":3011,
+            "state":"VIC",
+            "country":"Melbourne"
+        },
+        "Phone number":"03 8592 7384",
+        "Cuisines":"Middle Eastern, Coffee and Tea, Cafe Food",
+        "Average cost ($)":50,
+        "Opening Hours":"8am-3:30pm, 6pm-10pm",
+        "BYO":false
+    },
+    {
+        "Name":"Suda",
+        "Address":
+        {
+            "street":"Shop C2, 550 Lonsdale Street",
+            "surbub":"CBD",
+            "postcode":3000,
+            "state":"VIC",
+            "country":""
+        },
+        "Phone number":"03 9942 6422",
+        "Cuisines":"Korean, Asian",
+        "Average cost ($)":60,
+        "Opening Hours":"12noon – 2:30pm, 5pm – 10pm",
+        "BYO":false
+    },  {
+        "Name":"Devon",
+        "Address":
+        {
+            "street":"76 Devonshire Street",
+            "surbub":"Surry Hills",
+            "postcode":2010,
+            "state":"NSW",
+            "country":"Sydney"
+        },
+        "Phone number":"02 9211 8777",
+        "Cuisines":"Coffee and Tea, Cafe Food",
+        "Average cost ($)":60,
+        "Opening Hours":"8am-3.30pm",
+        "BYO":true
+    },  
+    {
+        "Name":"The Grounds of Alexandria Cafe",
+        "Address":
+        {
+            "street":"Shop 7A, 2 Huntley Street",
+            "surbub":"Alexandria",
+            "postcode":2015,
+            "state":"NSW",
+            "country":"Sydney"
+        },
+        "Phone number":"02 9699 2225",
+        "Cuisines":"Coffee and Tea, Salad, Poké, Cafe Food",
+        "Average cost ($)":80,
+        "Opening Hours":"7.30am-4pm",
+        "BYO":false
+    },  
+    {
+        "Name":"Chefs Gallery",
+        "Address":
+        {
+            "street":"Shop 12, Regent Place Arcade, 501 George Street",
+            "surbub":"CBD",
+            "postcode":2000,
+            "state":"NSW",
+            "country":"Sydney"
+        },
+        "Phone number":"02 9267 8877",
+        "Cuisines":"Chinese, Asian",
+        "Average cost ($)":70,
+        "Opening Hours":"11.30am-10pm",
+        "BYO":true,
+        "Known for":"Unique Chinese dining experience with handmade noodles, dim sum and chapas (Chinese style tapas)"
+    },  
+    {
+        "Name":"Ciao Italia",
+        "Address":
+        {
+            "street":"273 Mill Point Road",
+            "surbub":"South Perth",
+            "postcode":6151,
+            "state":"WA",
+            "country":"Perth"
+        },
+        "Phone number":"08 9368 5500",
+        "Cuisines":"Italian, Seafood",
+        "Average cost ($)":65,
+        "Opening Hours":"5pm-10pm",
+        "BYO":true
+    }
+]

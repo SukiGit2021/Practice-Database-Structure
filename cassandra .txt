@@ -1,0 +1,54 @@
+USE my_first_keyspace
+
+CREATE TABLE student(
+                     ... student_id int,
+                     ... first_name text,
+                     ... last_name text,
+                     ... age int,
+                     ... PRIMARY KEY(student_id)
+                     ... );
+
+DESCRIBE TABLE student;
+
+CREATE (TABLE | COLUMNFAMILY) <tablename>
+('<column-definition>' , '<column-definition>')
+(WITH <option> AND <option>)
+
+CREATE TABLE student(
+student_id int PRIMARYKEY,
+first_name text,
+last_name text,
+age int,
+);
+
+
+CREATE TABLE tablename(
+   column1 name datatype PRIMARYKEY,
+   column2 name data type,
+   column3 name data type,
+   PRIMARY KEY (column1)
+   )
+
+CREATE TABLE student(
+student_id int,
+first_name text,
+last_name text,
+age int,
+PRIMARY KEY(student_id)
+);
+
+
+INSERT INTO [keyspace_name.] table_name (column_list) 
+VALUES (column_values) 
+[IF NOT EXISTS] 
+[USING TTL seconds | TIMESTAMP epoch_in_microseconds] 
+
+INSERT INTO my_first_keyspace.student(student_id,first_name,last_name,age) VALUES(1001,'John','Smith',25);
+INSERT INTO my_first_keyspace.student(student_id,first_name,last_name,age) VALUES(1002,'Mary','Citizen',33);
+INSERT INTO my_first_keyspace.student(student_id,first_name,last_name,age) VALUES(1003,'Wendy','Wheat',22);
+
+SELECT COUNT(*) FROM student;
+DELETE last_name FROM my_first_keyspace.student WHERE student_id = 1001;
+
+select token(student_id), student_id,first_name,last_name,age from student;
+
